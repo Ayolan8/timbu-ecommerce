@@ -1,0 +1,258 @@
+footer {
+   padding: 16px 24px;
+   background-color: #EAECEE;
+   overflow-x: hidden;
+   margin-top: 41px;
+} 
+
+.footer-on-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.footer-on-laptop{
+    display: none;
+}
+
+.footer-container-1 {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 108px; */
+}
+
+footer h4 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19.2px;
+    color: #121A21;
+}
+
+ul {
+    width: 76px;
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+footer p, 
+ul a {
+    color: #121A21;
+    font-size: 12px;
+    line-height: 19.2px;
+    font-weight: 600;
+}
+
+.quick-links,
+.contact-info,
+.help-center,
+.logo-N-copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-info {
+    width: 196px;
+    height: 119px;
+   /* align-content: flex-end; */
+   
+}
+
+.contact-N-icons{
+    /* border: solid red; */
+    width: 196px;
+    min-height: 202px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 30px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 59px;
+    width: 153px;
+}
+
+.social-icons > h4 {
+    font-weight: 600;
+    color: #121a21;
+    font-size: 12px;
+    line-height: 19.2px;
+}
+
+.social-icons > div {
+    display: flex;
+    gap: 16px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-container-2{
+    display: flex;
+    height: 154px;
+    /* gap: 71px; */
+    justify-content: space-between;
+}
+
+.help-center{
+    width: 120px;
+    min-height: 154px;
+}
+
+.shipping {
+    width: 113px;
+}
+
+.logo-N-copyright{
+    width: 189px;
+    height: 51px;
+    align-self: center;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.logo > img:first-of-type {
+    width: 21.82px;
+    height: 21.44px;
+}
+
+.logo > img:last-of-type{
+    width: 76px;
+    height: 22px;
+}
+
+.copyright{
+    width: 189px;
+}
+
+@media screen and (min-width: 540px) {
+    .logo-N-copyright,
+    .contact-N-icons {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .Logo {
+        width: 187px;
+    }
+    
+    .Logo > img:first-of-type {
+        width: 43.64px;
+        height: 42.88px;
+    }
+    
+    .Logo > img:last-of-type {
+        width: 139px;
+        height: 34px;
+    }
+
+    footer {
+        padding: 40px 64px;
+    }
+
+    .footer-on-mobile {
+        display: none;
+    }
+
+    .footer-on-laptop {
+        display: flex;
+        justify-content: space-between;
+        gap: 104px;
+    }
+
+    .footer-on-laptop-links{
+        display: flex;
+        gap: 180px;
+    }
+
+    .quick-links {
+        width: 112px;
+        height: 291px;
+        gap: 16px;
+    }
+
+    footer h4 {
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    footer p, 
+    ul a {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+
+    ul {
+        gap: 16px;
+    }
+
+    .best {
+        width: 89px;
+    }
+
+    .logo-N-copyright{
+        width: 189px;
+    }
+
+    .copyright {
+        font-size: 12px;
+        line-height: 19.2px;
+    }
+
+    .help-center{
+        width: 169px;
+        height: 215px;
+        gap: 16px;
+    }
+
+    .contact-N-icons{
+        display: flex;
+        flex-direction: column;
+        width: 382px;
+        height: 257px;
+        gap: 40px;
+        padding-left: 0;
+    }
+
+    .contact-info {
+        gap: 16px;
+        margin-bottom: 40px;
+    }
+
+    .social-icons > h4{
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+
+    .social-icons > div {
+        gap: 32px;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 382px;
+        height: 114px
+    }
+
+    .address {
+        width: ;
+    }
+    
+}

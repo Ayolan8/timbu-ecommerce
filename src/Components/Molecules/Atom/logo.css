@@ -1,0 +1,32 @@
+.navigation {
+    width: 74px;
+    height: 38px;
+    padding: 8px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.navigation img {
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+.navigation p {
+    font-weight: 600;
+    color: #273747;
+    font-size: 14px;
+    line-height: 22.4px;
+   
+}
+
+.no-underline {
+    text-decoration: none;
+    font-weight: 600;
+    color: #273747;
+    font-size: 14px;
+    line-height: 22.4px;
+}

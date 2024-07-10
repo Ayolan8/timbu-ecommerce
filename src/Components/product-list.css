@@ -1,0 +1,138 @@
+
+.product-container {
+    display: grid;    
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 16px;
+    padding-right: 16px;
+    grid-gap: 20px;
+   
+}
+
+.product-cards {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 264px;
+    padding: 6px;
+    border: 1px solid #BEC3C9
+}
+
+.product-cards > img {
+    width: 132px;
+    height: 78px;
+    display: block;
+    /* border: solid red; */
+}
+
+.product-desc{
+    min-height: 84px;
+    flex-direction: column;
+}
+
+.product-desc-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -8px;
+    width: 132px;
+    gap: 16px;
+}
+
+.product-cards > div:last-of-type{
+    width: 132px;
+    height: 60px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.favorite-icon {
+    width: 16px;
+    height: 16px;
+    align-self: flex-end;
+}
+
+.product-cards .desc {
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #121A21;
+    font-weight: 400;
+}
+
+.product-cards .price {
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 600;
+    color: inherit;
+}
+
+.btnText {
+    width: 130px;
+    height: 38px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #2C3E50;
+    color: #F8F9F9;
+    font-weight: 600;
+    line-height: 22.4px;
+    font-size: 14px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .product-container {
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .product-container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 26px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
+    .product-cards{
+        height: 376px;
+        /* padding: 24px; */
+    }
+    
+    .product-cards > img {
+        width: 222px;
+        height: 170px;
+    }
+    
+    .product-cards > div:last-of-type{
+        width: 177px;
+        height: 93px;
+        gap: 40px;
+    }
+
+    /* .product-desc,  */
+    .product-desc-price{
+        width: 177px;
+        height: 93px;
+        gap: 40px;
+    }
+    
+    .product-cards .desc {
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+    
+    .product-cards .price {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .btnText,
+    .favorite-icon {
+        display: none;
+    }
+}
