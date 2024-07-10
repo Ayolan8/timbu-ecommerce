@@ -19,7 +19,7 @@ function App() {
     <div>
         <Header />
         <Routes> 
-          <Route path='/' element={<ProductList ProductData = {ProductData}/>} /> 
+          <Route exact path='/' element={<ProductList ProductData = {ProductData}/>} /> 
           <Route path='/productCard/:id' element={<ProductItemDetails />} />
           <Route path='/checkout' element={<Checkout name={name}
             setName = {setName}

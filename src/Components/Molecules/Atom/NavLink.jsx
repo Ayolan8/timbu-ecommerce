@@ -5,10 +5,16 @@ import { Link } from "react-router-dom";
 const NavLink = () => {
     return (
         <nav className="nav-links">
-            <a href="#">Home</a>
-            <a href="#">Shop</a>
-           <Link to='/checkout'>
-            <a href="#">Features</a>
+            <Link to="/" className="no-show">
+                <a href="#" className="no-show">Home</a>
+            </Link>
+            
+            <Link to='/productList' className="no-show">
+                <a href="#" className="no-show">Shop</a>
+            </Link>
+
+           <Link to='/checkout' className="no-show">
+            <a href="#" className="no-show">Features</a>
            </Link> 
         </nav>
     )

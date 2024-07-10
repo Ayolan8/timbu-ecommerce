@@ -11,9 +11,12 @@ const Checkout = ({name, setName,
 }) => {
     return (
         <main className="main">
+            <h2 className="laptop-h2">Checkout</h2>
             <div className="head">
                 <div className="home-n-progress">
-                    <ArrowBackItem text = "Back" />
+                    <div className="back-arr">
+                        <ArrowBackItem text = "Back" />
+                    </div>
                     <div className="progress-bar">
                         <div className="step-1">1</div>
                         <div className="line"></div>
@@ -36,4 +39,4 @@ const Checkout = ({name, setName,
     )
 }
 
-export default Checkout
+export default Checkout;

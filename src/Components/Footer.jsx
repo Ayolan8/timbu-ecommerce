@@ -1,13 +1,13 @@
 import React from "react";
 import './footer.css';
-import Logo from '../Components/Molecules/Atom/Logo';
+import FooterLogo from "./Molecules/Atom/footerLogo";
 
 import SocialMediaIcons from "./Molecules/Atom/SocialIcon";
 
 const Footer = () => {
     return (
         <footer>
-            {/* <div className="footer-on-mobile">
+            <div className="footer-on-mobile">
                 <div className="footer-container-1">
                     <div className="quick-links">
                         <h4>Quick Links</h4>
@@ -42,17 +42,17 @@ const Footer = () => {
                         <p>FAQs</p>
                         <p>Customer Service</p>
                     </div>
-
                     <div className="logo-N-copyright">
-                    <Logo />
+                        <FooterLogo />
                         <p className="copyright">2024 TechSport All right Reserved</p>
                     </div>
+                    
                 </div>
-            </div> */}
+            </div>
 
             <div className="footer-on-laptop">
                 <div className="logo-N-copyright">
-                    <Logo />
+                    <FooterLogo />
                         <p className="copyright">2024 TechSport All right Reserved</p>
                 </div>
 

@@ -7,16 +7,16 @@
     justify-content: space-between;
 }
 
-.Logo {
+.headerLogo {
     width: 187px;
 }
 
-.Logo > img:first-of-type {
+.headerLogo > img:first-of-type {
     width: 43.64px;
     height: 42.88px;
 }
 
-.Logo > img:last-of-type {
+.headerLogo > img:last-of-type {
     width: 139px;
     height: 34px;
 }
@@ -125,12 +125,12 @@
         display: none;
     }
 
-    .Logo > img:first-of-type {
+    .headerLogo > img:first-of-type {
         width: 24px;
         height: 24px;
     }
     
-    .Logo > img:last-of-type {
+    .headerLogo > img:last-of-type {
         width: 76px;
         height: 22px;
     }
@@ -171,12 +171,12 @@
         display: none;
 }
 
-.Logo > img:first-of-type {
+.headerLogo > img:first-of-type {
     width: 24px;
     height: 24px;
 }
 
-.Logo > img:last-of-type {
+.headerLogo > img:last-of-type {
     width: 76px;
     height: 22px;
 }
@@ -199,7 +199,11 @@
     height: 12px;
 }
 
-@media screen and (min-width: 1024px) {
+.no-show {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 800px) {
     .header {
         display: flex;
         gap: 54px;
@@ -209,21 +213,19 @@
         /* justify-content: flex-start; */
     }
     
-    .Logo {
+    .headerLogo {
         width: 187px;
     }
     
-    .Logo > img:first-of-type {
+    .headerLogo > img:first-of-type {
         width: 43.64px;
         height: 42.88px;
     }
     
-    .Logo > img:last-of-type {
+    .headerLogo > img:last-of-type {
         width: 139px;
         height: 34px;
     }
-    
-    
     
     .nav-links {
         display: flex;
@@ -253,7 +255,6 @@
         padding: 16px;
         border: 1px solid #BDC3C7
     }
-    
     
     ::placeholder {
         font-weight: 600;
