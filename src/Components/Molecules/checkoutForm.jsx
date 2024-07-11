@@ -15,10 +15,10 @@ const Form = ({
                         <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} placeholder="Jay" />
                     </div>
                 
-                
-                        <label htmlFor="email"> *Email </label>
+                    <div>
+                    <label htmlFor="email"> *Email </label>
                         <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="johndeo@gmail.com" />
-                
+                    </div> 
                 
                     <div>
                         <label htmlFor="shipping"> *Shipping Address </label>
@@ -81,7 +81,7 @@ const Form = ({
 
                     <div>
                         <label htmlFor="phone1"> Country </label>
-                        <input type="tel" id="phone1" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="eg. +234" />
+                        <input type="tel" id="phone1" value={phone} onChange={(e) => setPhone(e.target.value)} />
                     </div> 
 
                     <div className="btn-div firstB">

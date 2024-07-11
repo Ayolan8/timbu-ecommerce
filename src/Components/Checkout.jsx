@@ -25,7 +25,7 @@ const Checkout = ({name, setName,
                         <div className="step-3">3</div>
                     </div>
                 </div>
-                <h3>Shipping Details</h3>
+                <h3 className="h3">Shipping Details</h3>
             </div>
             <Form name={name} setName = {setName}
             email = {email}
