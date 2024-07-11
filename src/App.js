@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
         <Header />
-        <Routes basename="/timbu-ecommerce"> 
+        <Routes> 
           <Route exact path='/' element={<ProductList ProductData = {ProductData}/>} /> 
           <Route path='/productCard/:id' element={<ProductItemDetails />} />
           <Route path='/checkout' element={<Checkout name={name}
