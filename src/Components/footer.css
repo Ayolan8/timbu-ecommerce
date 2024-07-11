@@ -172,7 +172,7 @@ ul a {
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 912px) {
     .Logo {
         width: 187px;
     }
@@ -276,9 +276,5 @@ ul a {
         width: 382px;
         height: 114px
     }
-
-    .address {
-        width: ;
-    }
-    
+ 
 }

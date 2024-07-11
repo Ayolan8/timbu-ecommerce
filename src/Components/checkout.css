@@ -116,7 +116,7 @@
     background: url('../assets/Eye.png') no-repeat right center;
 }
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 912px) {
     .form .show-on-mobile {
         display: none;
     }
