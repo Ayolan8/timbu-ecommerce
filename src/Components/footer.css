@@ -172,7 +172,10 @@ ul a {
     }
 }
 
-@media screen and (min-width: 912px) {
+@media screen and (min-width: 920px) {
+    footer{
+        overflow: auto;
+    }
     .Logo {
         width: 187px;
     }

@@ -203,7 +203,7 @@
     text-decoration: none;
 }
 
-@media screen and (min-width: 912px) {
+@media screen and (min-width: 920px) {
     .header {
         display: flex;
         gap: 54px;
