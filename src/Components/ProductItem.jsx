@@ -9,7 +9,9 @@ const ProductItem = ({productCard}) => {
             <div className="product-desc">
                 <img src={productCard.favorite} alt="liked icon" className="favorite-icon"/>
                 <div className="product-desc-price">
-                    <p className="desc">{productCard.productDesc}</p>
+                    <div className="mobile-desc">
+                        <p className="desc">{productCard.productDesc}</p>
+                    </div>
                     <p className="price">{productCard.price}</p>
                 </div>
             </div>

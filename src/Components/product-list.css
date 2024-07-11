@@ -57,7 +57,7 @@
 }
 
 .product-cards .desc {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 22.4px;
     color: #121A21;
     font-weight: 400;
@@ -82,6 +82,12 @@
     font-size: 14px;
 
 }
+
+/* @media screen and (max-width: 376px) {
+    .product-cards .price{
+        font-size: 12px;
+    }
+} */
 
 @media screen and (min-width: 768px) {
     .product-container {

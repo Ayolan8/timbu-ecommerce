@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const FooterLogo = () => {
     return (
-        <div className="logo">
+        <div className="footer-logo">
             <Link to='/'>
                 <img src={Logof1} alt="logo 1" />
                 <img src={Logof2} alt="logo 2" />
