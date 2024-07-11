@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/timbu-ecommerce/static/css/main.f3cc5612.css",
+    "main.css": "/timbu-ecommerce/static/css/main.8e06e443.css",
     "main.js": "/timbu-ecommerce/static/js/main.1351ea10.js",
     "static/media/salt-image-7 1.png": "/timbu-ecommerce/static/media/salt-image-7 1.c975cc98e902561ff4dd.png",
     "static/media/salt-image-5 1.png": "/timbu-ecommerce/static/media/salt-image-5 1.8bf28da7d270452762e5.png",
@@ -8,11 +8,11 @@
     "static/media/salt-image-10 1 (1).png": "/timbu-ecommerce/static/media/salt-image-10 1 (1).f197db7727bdc27650eb.png",
     "static/media/salt-image-3 1.png": "/timbu-ecommerce/static/media/salt-image-3 1.1297846f617104fdee9c.png",
     "index.html": "/timbu-ecommerce/index.html",
-    "main.f3cc5612.css.map": "/timbu-ecommerce/static/css/main.f3cc5612.css.map",
+    "main.8e06e443.css.map": "/timbu-ecommerce/static/css/main.8e06e443.css.map",
     "main.1351ea10.js.map": "/timbu-ecommerce/static/js/main.1351ea10.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3cc5612.css",
+    "static/css/main.8e06e443.css",
     "static/js/main.1351ea10.js"
   ]
 }
